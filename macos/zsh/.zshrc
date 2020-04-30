@@ -10,7 +10,9 @@ fi
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="simple"
+# ZSH_THEME="robbyrussell"
+# ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -103,3 +105,8 @@ source $ZSH/oh-my-zsh.sh
 # Additional files to include
 source $HOME/.zshrc_path
 source $HOME/.zshrc_aliases
+
+# Setup pyenv
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi

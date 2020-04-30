@@ -16,8 +16,10 @@ def create_symlink(src, target):
 def install_zsh_config():
     target_map = [
         ('zsh/.zshrc','.zshrc'),
+        ('zsh/.zshrc_path', '.zshrc_path'),
+        ('zsh/.zshrc_aliases', '.zshrc_aliases'),
         ('git/.gitconfig', '.gitconfig'),
-        ('ssh/config', '.ssh/config')
+        ('ssh/config', '.ssh/config'),
     ]
     for i in target_map:
         src = join(ROOT_DIR, i[0])

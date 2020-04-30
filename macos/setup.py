@@ -19,6 +19,7 @@ def install_zsh_config():
         ('zsh/.zshrc_path', '.zshrc_path'),
         ('zsh/.zshrc_aliases', '.zshrc_aliases'),
         ('git/.gitconfig', '.gitconfig'),
+        ('git/.gitignore_global', '.gitignore_global'),
         ('ssh/config', '.ssh/config'),
     ]
     for i in target_map:

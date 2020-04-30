@@ -3,3 +3,4 @@
 	email = jacobwan840@gmail.com
 [core]
 	excludesfile = /Users/jwan0406/.gitignore_global
+	editor = nvim

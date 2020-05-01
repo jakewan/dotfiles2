@@ -35,6 +35,7 @@ def install_zsh_config(args):
         ('ssh/config', '.ssh/config'),
         ('../common/neovim/init.vim', '.config/nvim/init.vim'),
         ('tmux/.tmux.conf', '.tmux.conf'),
+        ('vscode/settings.json', 'Library/Application Support/Code/User/settings.json'),
     ]
     for i in target_map:
         src = normpath(join(ROOT_DIR, i[0]))

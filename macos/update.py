@@ -34,6 +34,7 @@ def install_zsh_config(args):
         ('git/.gitignore_global', '.gitignore_global'),
         ('ssh/config', '.ssh/config'),
         ('../common/neovim/init.vim', '.config/nvim/init.vim'),
+        ('tmux/.tmux.conf', '.tmux.conf'),
     ]
     for i in target_map:
         src = normpath(join(ROOT_DIR, i[0]))

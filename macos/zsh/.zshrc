@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/jwan0406/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Homebrew completions
 if type brew &>/dev/null; then
@@ -74,6 +74,8 @@ ZSH_THEME="simple"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+# Workaround to prevent insecure directories warning
+ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
 
 # User configuration

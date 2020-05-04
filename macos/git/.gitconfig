@@ -2,5 +2,5 @@
 	name = Jacob Wan
 	email = jacobwan840@gmail.com
 [core]
-	excludesfile = /Users/jwan0406/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	editor = nvim

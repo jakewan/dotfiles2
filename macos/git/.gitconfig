@@ -1,6 +1,9 @@
 [user]
 	name = Jacob Wan
 	email = jacobwan840@gmail.com
+	signingKey = 880CA6A3E3BC24FB
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = nvim
+[commit]
+	gpgSign = true

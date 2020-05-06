@@ -4,4 +4,4 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # For homebrew
-alias brew-graph='brew graph --installed | dot -T png -o ~/Downloads/graph.png; open ~/Downloads/graph.png'
+alias brew-graph='brew graph --installed | fdp -T png -o ~/Downloads/brew-graph.png; open ~/Downloads/brew-graph.png'

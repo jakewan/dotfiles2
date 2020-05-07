@@ -27,7 +27,8 @@ def create_symlink(src, target):
 
 def install_zsh_config(args):
     target_map = [
-        ('zsh/.zshrc','.zshrc'),
+        ('zsh/.zshrc', '.zshrc'),
+        ('zsh/.ohmyzsh_config', '.ohmyzsh_config'),
         ('zsh/.zshrc_path', '.zshrc_path'),
         ('zsh/.zshrc_aliases', '.zshrc_aliases'),
         ('git/.gitconfig', '.gitconfig'),

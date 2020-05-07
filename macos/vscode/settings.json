@@ -4,5 +4,5 @@
     "files.trimFinalNewlines": true,
     "python.linting.pycodestyleEnabled": true,
     "editor.fontFamily": "Inconsolata, monospace",
-    "editor.fontSize": 18
+    "editor.fontSize": 16
 }

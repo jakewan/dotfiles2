@@ -4,5 +4,9 @@
     "files.trimFinalNewlines": true,
     "python.linting.pycodestyleEnabled": true,
     "editor.fontFamily": "Inconsolata, monospace",
-    "editor.fontSize": 16
+    "editor.fontSize": 16,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "Inconsolata, monospace"
 }

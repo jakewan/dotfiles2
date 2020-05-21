@@ -6,7 +6,7 @@
     "editor.fontFamily": "Inconsolata, monospace",
     "editor.fontSize": 16,
     "typescript.updateImportsOnFileMove.enabled": "never",
-    "workbench.startupEditor": "newUntitledFile",
     "terminal.integrated.fontSize": 16,
-    "terminal.integrated.fontFamily": "Inconsolata, monospace"
+    "terminal.integrated.fontFamily": "Inconsolata, monospace",
+    "zentabs.maximumOpenedTabs": 5
 }

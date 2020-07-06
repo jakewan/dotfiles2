@@ -5,6 +5,7 @@
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = nvim
+	pager = cat
 [commit]
 	gpgSign = true
 [pull]

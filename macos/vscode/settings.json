@@ -8,5 +8,6 @@
     "typescript.updateImportsOnFileMove.enabled": "never",
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontFamily": "Inconsolata, monospace",
-    "zentabs.maximumOpenedTabs": 5
+    "zentabs.maximumOpenedTabs": 6,
+    "typescript.format.semicolons": "remove"
 }

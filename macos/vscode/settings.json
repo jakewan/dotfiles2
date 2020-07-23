@@ -9,5 +9,11 @@
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontFamily": "Inconsolata, monospace",
     "zentabs.maximumOpenedTabs": 6,
-    "typescript.format.semicolons": "remove"
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

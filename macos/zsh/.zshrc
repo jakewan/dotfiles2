@@ -73,6 +73,8 @@ ZSH_THEME="simple"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=()
+plugins+=(yarn-completion)
+plugins+=(zsh-better-npm-completion)
 
 # Workaround to prevent insecure directories warning
 ZSH_DISABLE_COMPFIX=true
@@ -92,6 +94,8 @@ source $HOME/.ohmyzsh_config
 # else
 #   export EDITOR='mvim'
 # fi
+export EDITOR='nvim'
+export VISUAL='nvim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"

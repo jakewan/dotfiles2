@@ -1,19 +1,30 @@
 {
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "files.trimFinalNewlines": true,
-    "python.linting.pycodestyleEnabled": true,
-    "editor.fontFamily": "Inconsolata, monospace",
-    "editor.fontSize": 16,
-    "typescript.updateImportsOnFileMove.enabled": "never",
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.fontFamily": "Inconsolata, monospace",
-    "zentabs.maximumOpenedTabs": 6,
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "Inconsolata, monospace",
+    "editor.fontSize": 16,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "python.linting.pycodestyleEnabled": true,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "Inconsolata, monospace",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "zentabs.maximumOpenedTabs": 6,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.tabWidth": 4
 }

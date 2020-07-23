@@ -122,4 +122,4 @@ fi
 if command -v nodenv 1>/dev/null 2>&1; then
   eval "$(nodenv init -)"
 fi
-export NODENV_VERSION=12.18.0
+export NODENV_VERSION=12.18.2

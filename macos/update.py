@@ -35,6 +35,7 @@ def install_zsh_config(args):
         ('git/.gitignore_global', '.gitignore_global'),
         ('ssh/config', '.ssh/config'),
         ('../common/neovim/init.vim', '.config/nvim/init.vim'),
+        ('../common/antigen/antigen.zsh', '.antigen.zsh'),
         ('tmux/.tmux.conf', '.tmux.conf'),
         ('vscode/settings.json', 'Library/Application Support/Code/User/settings.json'),
     ]

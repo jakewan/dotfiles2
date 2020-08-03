@@ -3,7 +3,6 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.fontFamily": "Inconsolata, monospace",
     "editor.fontSize": 16,
     "files.insertFinalNewline": true,

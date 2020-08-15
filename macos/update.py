@@ -36,6 +36,7 @@ def install_zsh_config(args):
         ('ssh/config', '.ssh/config'),
         ('../common/neovim/init.vim', '.config/nvim/init.vim'),
         ('../common/antigen/antigen.zsh', '.antigen.zsh'),
+        ('../common/nodenv/version', '.nodenv/version'),
         ('tmux/.tmux.conf', '.tmux.conf'),
         ('vscode/settings.json', 'Library/Application Support/Code/User/settings.json'),
     ]

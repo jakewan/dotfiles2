@@ -6,3 +6,6 @@ alias l='ls -CF'
 # For homebrew
 # See https://github.com/martido/homebrew-graph
 alias brew-graph='brew graph --installed | fdp -T png -o ~/Downloads/brew-graph.png; open ~/Downloads/brew-graph.png'
+
+# For git
+alias git-graph='git log --all --decorate --oneline --graph'

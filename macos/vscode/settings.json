@@ -28,5 +28,11 @@
     "prettier.tabWidth": 4,
     "workbench.colorTheme": "Solarized Dark",
     "editor.renderWhitespace": "boundary",
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "ruby.lint": {
+        "ruby-lint": false
+    }
 }

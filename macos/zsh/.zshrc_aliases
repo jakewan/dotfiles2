@@ -9,3 +9,9 @@ alias brew-graph='brew graph --installed | fdp -T png -o ~/Downloads/brew-graph.
 
 # For git
 alias git-graph='git log --all --decorate --oneline --graph'
+
+# For neovim
+alias vim=nvim
+
+# Use bat in place of cat
+alias cat=bat

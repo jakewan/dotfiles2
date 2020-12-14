@@ -38,6 +38,7 @@ def install_zsh_config(args):
         ('../common/antigen/antigen.zsh', '.antigen.zsh'),
         ('../common/nodenv/version', '.nodenv/version'),
         ('../common/rbenv/version', '.rbenv/version'),
+        ('../common/pyenv/version', '.pyenv/version'),
         ('tmux/.tmux.conf', '.tmux.conf'),
         ('vscode/settings.json', 'Library/Application Support/Code/User/settings.json'),
     ]

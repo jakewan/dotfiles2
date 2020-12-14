@@ -41,6 +41,7 @@ def install_zsh_config(args):
         ('../common/pyenv/version', '.pyenv/version'),
         ('tmux/.tmux.conf', '.tmux.conf'),
         ('vscode/settings.json', 'Library/Application Support/Code/User/settings.json'),
+        ('gnupg/gpg-agent.conf', '.gnupg/gpg-agent.conf'),
     ]
     for i in target_map:
         src = normpath(join(ROOT_DIR, i[0]))

@@ -25,7 +25,6 @@
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "prettier.tabWidth": 4,
     "workbench.colorTheme": "Solarized Dark",
     "editor.renderWhitespace": "boundary",
     "[html]": {
@@ -35,5 +34,11 @@
         "ruby-lint": false
     },
     "editor.minimap.enabled": false,
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
 }

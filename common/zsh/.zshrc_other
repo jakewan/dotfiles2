@@ -1,0 +1,2 @@
+export GOOGLETEST_HOME=$HOME/Documents/github/google/googletest
+export GOOGLETEST_BUILD=$HOME/Documents/github/jakewan/googletest-build

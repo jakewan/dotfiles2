@@ -31,6 +31,7 @@ def install_zsh_config(args):
         ('zsh/.ohmyzsh_config', '.ohmyzsh_config'),
         ('zsh/.zshrc_path', '.zshrc_path'),
         ('zsh/.zshrc_aliases', '.zshrc_aliases'),
+        ('../common/zsh/.zshrc_other', '.zshrc_other'),
         ('git/.gitconfig', '.gitconfig'),
         ('git/.gitignore_global', '.gitignore_global'),
         ('ssh/config', '.ssh/config'),

@@ -20,6 +20,7 @@ export VISUAL='nvim'
 # Additional files to include
 source $HOME/.zshrc_path
 source $HOME/.zshrc_aliases
+source $HOME/.zshrc_other
 
 # Setup pyenv
 if command -v pyenv 1>/dev/null 2>&1; then

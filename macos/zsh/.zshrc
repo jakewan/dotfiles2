@@ -36,10 +36,10 @@ if command -v nodenv 1>/dev/null 2>&1; then
 fi
 
 # Setup rbenv
-export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
-if command -v rbenv 1>/dev/null 2>&1; then
-  eval "$(rbenv init -)"
-fi
+# export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+# if command -v rbenv 1>/dev/null 2>&1; then
+#   eval "$(rbenv init -)"
+# fi
 
 # Homebrew completions
 if type brew &>/dev/null; then

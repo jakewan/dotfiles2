@@ -8,7 +8,6 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "python.linting.pycodestyleEnabled": true,
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontFamily": "Inconsolata, monospace",
     "typescript.updateImportsOnFileMove.enabled": "never",

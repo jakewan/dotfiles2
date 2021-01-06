@@ -42,6 +42,8 @@ def install_zsh_config(args):
         ('../common/pyenv/version', '.pyenv/version'),
         ('tmux/.tmux.conf', '.tmux.conf'),
         ('vscode/settings.json', 'Library/Application Support/Code/User/settings.json'),
+        ('../common/vscode/keybindings.json',
+         'Library/Application Support/Code/User/keybindings.json'),
         ('gnupg/gpg-agent.conf', '.gnupg/gpg-agent.conf'),
     ]
     for i in target_map:

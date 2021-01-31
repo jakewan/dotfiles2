@@ -34,10 +34,5 @@
     },
     "editor.minimap.enabled": false,
     "window.zoomLevel": 1,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ]
+    "workbench.editorAssociations": []
 }
